@@ -1,0 +1,26 @@
+.card-hover {
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.card-hover:hover {
+    transform: translateY(-5px);
+    background-color: #b90404 !important;
+}
+
+.card-link {
+    text-decoration: none;
+}
+
+.no-underline {
+    text-decoration: none !important;
+}
+
+
+.main-content {
+    transition: margin-left 0.3s;
+}
+
+.main-content.sidebar-open {
+    margin-left: 240px;
+}
